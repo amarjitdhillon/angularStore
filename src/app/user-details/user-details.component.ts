@@ -15,7 +15,7 @@ export class UserDetailsComponent implements OnInit {
 
   ngOnInit() {
     this.subscriber = this.activatedRoute.params.subscribe(params => {
-      this.name = params.name;
+      this.name = params['name'];
     });
   }
 

@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent implements OnInit {
   studentList = [
-    {name: 'amar'},
-    {name: 'vishal'},
-    {name: 'harsimran'},
-    {name: 'claire'}
+    {name: 'Amar'},
+    {name: 'Vishal'},
+    {name: 'Harsimran'},
+    {name: 'Tania'}
     ];
   constructor() { }
 

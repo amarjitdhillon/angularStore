@@ -14,7 +14,7 @@ const routes: Routes = [
   {path: 'app', component: AppComponent },
   {path: 'students', component: UserComponent, children:
   [
-    {path: 'details', component: UserDetailsComponent}
+    {path: 'details/:name', component: UserDetailsComponent}
   ]},
   {path: 'oldhome', redirectTo: '/home', pathMatch: 'full' },
   {path: '**', component: ErrorComponent }
