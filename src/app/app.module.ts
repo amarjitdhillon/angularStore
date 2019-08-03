@@ -3,17 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { EmpCreateComponent } from './emp-create/emp-create.component';
+import { UserComponent } from './user/user.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { ErrorComponent } from './error/error.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmpCreateComponent,
+    UserComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    ErrorComponent,
+    UserDetailsComponent
   ],
   imports: [
     BrowserModule,
