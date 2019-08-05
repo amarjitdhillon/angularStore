@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {UserService} from "../../services/user.service";
 
 @Component({
   selector: 'app-user',
@@ -6,13 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user.component.sass']
 })
 export class UserComponent implements OnInit {
-  studentList = [
-    {name: 'Amar'},
-    {name: 'Vishal'},
-    {name: 'Harsimran'},
-    {name: 'Tania'}
-    ];
-  constructor() { }
+
+  constructor(private userService: UserService) { }
 
   ngOnInit() {
   }
