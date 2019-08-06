@@ -9,7 +9,8 @@ export class UserService {
     {name: 'Amar'},
     {name: 'Vishal'},
     {name: 'Harsimran'},
-    {name: 'Tania'}
+    {name: 'Tania'},
+    {name: 'Jazz'}
   ];
   constructor() { }
 }
